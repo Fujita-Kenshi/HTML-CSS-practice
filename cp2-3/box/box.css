@@ -1,0 +1,17 @@
+.box1{
+  width: 500px;
+  height: 500px;
+  background-color: #FF0000;
+  margin:50px;
+  /* padding/marginは、値によって表示領域が変化する。
+  1つ：上下左右,　2つ：上下・左右,　3つ：上・左右・下,　4つ上・右・下・左*/
+  padding:10px 20px 30px 40px;
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border:5px solid yellow;
+  
+}

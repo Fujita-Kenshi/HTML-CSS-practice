@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+/*a {*/
+/*  text-decoration: none;*/
+/*}*/
+
+header{
+  width: 100%;                    /* 幅 100% */
+  margin: 0 auto;                 /* 中央ぞろえ */
+  padding: 20px 0;                /* 内余白 上下：20px 左右：0px*/
+  text-align: center;             /* テキストの中央ぞろえ*/
+}
+
+.n-li {
+  padding: 15px 0;                /* nav要素の上下に内空白*/
+  border-top: 1px solid #000;     /* nav要素の上に実線*/
+  border-bottom: 1px solid #000;  /* nav要素の下に実線*/
+  text-align: center;             /* テキストの中央ぞろえ*/
+  margin: 0 auto;                 /* 中央寄せ */
+}
+
+.n-li-item {
+  list-style: none;               /* リストの行頭・の削除 */
+  padding: 0 20px;                /* listの左右に20px */
+  display: inline-block;          /* 横並び(inline-block)に変更*/
+  margin: 0 auto;                 /* 中央寄せ */
+}
+
+.main {
+  display: flex;                  /* mainクラスをフレックスボックスに*/
+  margin: 50px auto;                 /* 内余白を上下50px 左右0px */
+  width: 800px;                   /* 横幅 800px */
+  flex-wrap: wrap;                /* 要素内で改行する*/
+}
+
+.BOX1{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #e6ffe9;
+}
+
+.BOX2{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #cbffd3;
+}
+
+.BOX3{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #aeffbd;
+}
+
+.BOX4{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #93ffab;
+}
+
+.BOX5{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #f3ffd8;
+}
+
+.BOX6{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #edffbe;
+}
+
+.BOX7{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #e9ffa5;
+}
+
+.BOX8{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #e4ff8d;
+}
+
+.BOX9{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #d9e5ff;
+}
+
+.BOX10{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #bad3ff;
+}
+
+.BOX11{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #a4c6ff;
+}
+
+.BOX12{
+  width:200px;                    /* 横幅 200px */
+  height:200px;                   /* 高さ 200px */
+  background-color: #8eb8ff;
+}
+
+footer {
+  width:100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.f-text{
+  color: #fff;
+}

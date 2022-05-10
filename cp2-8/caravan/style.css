@@ -1,0 +1,222 @@
+/* ブラウザはそれぞれ独自のデフォルトCSSを保持している（Chrome,Edge..etc）
+「*｛｝」はブラウザが持っているCSSを設定する。
+  以下のコードは、リセットするための記述(リセットCSS)*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 90%;                    /* 横幅 90#*/
+  padding: 15px 0;               /* */
+  margin: 0 auto;                /* 中央寄せ */
+  text-align: center;            /* テキストを中央寄せにする */
+}
+
+header .heading {
+  font-size: 32px;
+}
+
+.n-list {
+  text-align: center;           /* 「text-algin」テキスト・画像の行揃え */
+  padding: 10px 0;               /* 上下10px 左右0 */
+  margin: 0 auto;                /* 中央寄せ */
+}
+
+.n-li-item {
+  list-style: none;              /* 「list-style」ulタグ行頭の・を制御する*/             
+  display: inline-block;         /* インラインブロック要素に変更*/
+  margin:0 20px;                
+}
+
+
+
+.main_vis {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 300px;                  /* 高さ 300px */
+  background-image: url(img/mv.jpg);    /* 背景に画像を挿入 */
+  background-size: cover;               /* 画像比率は維持したまま領域最大(非表示部発生)*/
+  background-position: center;          /* 背景画像を中央に */
+}
+
+.m_vis-content {
+  width: 40%;                     /* 画像幅が変わってもバランスを同じにするため*/
+  height: 300px;                  /* 高さ 300px */
+  background-color: rgba(0,0,0,0.5);    /* 背景色黒　透明度50%*/
+  text-align: center;              /* テキスト中央ぞろえ */
+  padding-top: 105px;                 /* 上側のうち余白の設定（垂直方向の高さを調節） */
+}
+
+.m_vis-text {
+  color: #fff;                    /* 文字色 白*/
+}
+
+.m_vis-name {
+  color: #fff;                    /* 文字色 白*/
+  margin-top: 30px;               /* 外側上余白 30px */
+}
+
+main {
+  width: 800px;                  /* 横幅800px */
+  display: flex;                 /* Flexboxの使用*/
+  justify-content: center;       /* 要素の横並び・中央寄せ*/
+  margin: 0 auto;                /* 要素の中央ぞろえ */
+  padding: 70px 0;               /* 上下に70px　左右に0pxの内余白 */
+}
+
+.blog {
+  width: 540px;                  /* 横幅 800px */
+  margin-right: 30px;            /* 右に30の外余白 */
+}
+
+.b-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.b-box {
+  padding-top: 50px;
+}
+
+.b-item {
+  padding-bottom: 20px;
+  margin-bottom:20px;
+  border-bottom:1px solid #f7f7f7;
+  display: flex;                /* flexboxに */
+  justify-content: flex-start;  /* 左揃え */ 
+}
+
+.b-img {
+  height: 180px;                  /* 画像の高さ180px*/
+}
+
+.b-text {
+  padding: 25px 0 0 30px;
+}
+
+.b-t-heading {
+  padding-bottom: 15px;
+}
+
+.b-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;          /* インラインブロック要素に変更*/
+  padding: 5px 8px;                /* 上下5px 左右8pxの内余白*/
+  background-color: #acabab;      
+  border-radius: 3px;             /* 角を丸くする*/
+  color: #fff;
+  font-size: 11px;
+}
+
+.pagination {
+  text-align: center;
+  padding-top:50px;
+}
+
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background-color: lightgray;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
+
+.sidebar {
+  width: 230px;
+}
+
+.command {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.s-item {
+  padding: 50px 0;
+}
+
+.s-i-popular,
+.s-i-categories {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom:5px;
+}
+
+.s-i-popular:last-child,
+.s-i-categories:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.instagram .s-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s-img {
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.s-img:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.s-img:nth-child(1) {
+  background-image: url(img/airport.jpg);
+}
+  
+.s-img:nth-child(2) {
+  background-image: url(img/japan.jpg);
+}
+
+.s-img:nth-child(3) {
+  background-image: url(img/snow.jpg);
+}
+
+.s-img:nth-child(4) {
+  background-image: url(img/japan2.jpg);
+}
+
+.s-img:nth-child(5) {
+  background-image: url(img/lake.jpg);
+}
+
+.s-img:nth-child(6) {
+  background-image: url(img/road.jpg);
+}
+
+
+
+footer {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 120px;                  /* 高さ120px */
+  text-align: center;             /* テキストを中央ぞろえ */
+  line-height: 120px;             /* テキストを上下中央ぞろえ(widthに合わせる)*/
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;                     /* 白字 */
+}
+
+
+

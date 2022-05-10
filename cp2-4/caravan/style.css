@@ -1,0 +1,67 @@
+/* ブラウザはそれぞれ独自のデフォルトCSSを保持している（Chrome,Edge..etc）
+「*｛｝」はブラウザが持っているCSSを設定する。
+  以下のコードは、リセットするための記述(リセットCSS)*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.header {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 120px;                  /* 高さ 120px */
+  background-color: red;          /* 背景色 red */
+}
+
+.h-top {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 70px;                  /* 高さ 70px */
+  background-color: hotpink;          /* 背景色 skyblue */
+}
+
+.h-bottom {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 50px;                  /* 高さ 50px */
+  background-color: pink;          /* 背景色 skyblue */
+}
+
+.main_vis {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 300px;                  /* 高さ 300px */
+  background-color: orange;          /* 背景色 orange */
+}
+
+.m_vis-content {
+  width: 350px;                    /* 横幅 350px */
+  height: 300px;                  /* 高さ 300px */
+  background-color: gold;          /* 背景色 skyblue */
+}
+
+.main {
+  width: 840px;                    /* 横幅 840px*/
+  /*height: 1400px;                 高さ 1400px */
+  /*background-color: green;          背景色 green */
+  display: flex;                  /* Flexboxの使用 */
+  justify-content: center;        /* 子要素の横並び・中央寄せ*/
+  margin: 0 auto;                  /* 中央寄せ(左右に空白が必要) */
+}
+
+.m-blog {
+  width: 600px;                    /* 横幅 600px */
+  height: 1400px;                  /* 高さ 1400px */
+  background-color: limegreen;          /* 背景色 green */
+}
+
+.m-sideber {
+  width: 240px;                    /* 横幅 240px */
+  height: 1400px;                  /* 高さ 1400px */
+  background-color: palegreen;          /* 背景色 green */
+}
+
+.footer {
+  width: 100%;                    /* 横幅いっぱい */
+  height: 120px;                  /* 高さ 120px */
+  background-color: skyblue;          /* 背景色 skyblue */
+}
+
+
